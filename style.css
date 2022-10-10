@@ -320,7 +320,7 @@ footer ul a:hover{
    nav button{
     display: inline-block;
     font-size: 1.5rem;
-    background: trnsparent;
+    background: transparent;
     color: var(--color-white);
     cursor:pointer;
    }

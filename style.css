@@ -190,7 +190,11 @@ nav button{
     overflow: hidden;
     margin-bottom:1.6rem;
 } 
+.image {
+    padding-top:5.2rem;
+}
 .post:hover .post__thumbnail img{
+   
     filter: saturate(0);
     transition: filter 500ms ease;
 }

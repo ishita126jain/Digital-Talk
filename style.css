@@ -51,6 +51,9 @@ body{
     margin-inline: auto;
 }
 
+.section__extra-margin{
+    margin-top: 7rem;
+}
 section{
     margin-top: 3rem;
     width: 100vw;
@@ -117,7 +120,7 @@ nav button{
 .avatar{
     width:2.5rem;
     height:2.5rem;
-    aspect-ratio: 1/1;
+    /* aspect-ratio: 1/1; */
     border-radius: 50%;
     overflow: hidden;
     border: 0.3rem solid var(--color-bg);
@@ -424,6 +427,10 @@ footer ul a:hover{
     color: var(--color-green);
 }
 
+.alert__message.lg {
+    text-align: center;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -530,7 +537,7 @@ input, textarea, select {
 
 @media screen and (max-width: 1024px){
    .container{
-    width: var(--cointainer-width-md);
+    width: var(--container-width-md);
    }
 
    h2{
@@ -579,10 +586,10 @@ input, textarea, select {
     display: flex;
     align-items: center;
     box-shadow: -2rem 3rem 7rem rgba(0,0,0,0.7);
-   border-top: 1px solid var(--color-bg);
-   animation: animateDrpodown 400ms 0s ease forwards;
-   opacity: 0;
-   transform-origin: top;
+    border-top: 1px solid var(--color-bg);
+    animation: animateDropdown 400ms 0s ease forwards;
+    opacity: 0;
+    transform-origin: top;
    }
 
    .nav__items li:nth-child(2){
